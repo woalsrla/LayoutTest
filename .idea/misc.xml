@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android30406/LayoutTest/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Android30406/LayoutTest/app/src/main/res/layout/mylayout.xml" value="0.17806484295845998" />
+        <entry key="..\:/Android30406/LayoutTest/app/src/main/res/layout/mylayout2.xml" value="0.358695652173913" />
+        <entry key="..\:/Android30406/LayoutTest/app/src/main/res/layout/mylayout3.xml" value="0.22" />
+        <entry key="..\:/Android30406/LayoutTest/app/src/main/res/layout/mylayout4.xml" value="0.358695652173913" />
+        <entry key="..\:/Android30406/LayoutTest/app/src/main/res/layout/mylayout5.xml" value="0.358695652173913" />
+        <entry key="..\:/Android30406/LayoutTest/app/src/main/res/layout/mylayout6.xml" value="0.16" />
+        <entry key="..\:/Android30406/LayoutTest/app/src/main/res/layout/mylayout7.xml" value="0.36614583333333334" />
+        <entry key="..\:/Android30406/LayoutTest/app/src/main/res/layout/mylayout8.xml" value="0.358695652173913" />
+        <entry key="..\:/Android30406/LayoutTest/app/src/main/res/layout/mylayout9.xml" value="0.2" />
+        <entry key="..\:/Android30406/LayoutTest/app/src/main/res/layout/naverrogin.xml" value="0.2" />
+        <entry key="..\:/Android30406/LayoutTest/app/src/main/res/layout/school_info.xml" value="0.30055579307396324" />
+        <entry key="..\:/Android30406/LayoutTest/app/src/main/res/layout/test1.xml" value="0.30055579307396324" />
+        <entry key="..\:/Android30406/LayoutTest/app/src/main/res/layout/test2.xml" value="0.30055579307396324" />
+        <entry key="..\:/Android30406/LayoutTest/app/src/main/res/layout/test3.xml" value="0.30055579307396324" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

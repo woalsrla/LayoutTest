@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:stretchColumns="*"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow>
+        <Button android:text="이름" style="@style/title_style"/>
+        <Button android:text="국어" />
+        <Button android:text="수학" />
+        <Button android:text="영어" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="김재민"/>
+        <TextView android:text="100"/>
+        <TextView android:text="90"/>
+        <TextView android:text="80"/>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="김태형"/>
+        <TextView android:text="100"/>
+        <TextView android:text="90"/>
+        <TextView android:text="80"/>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="합계" android:layout_span="3"/>
+        <TextView android:text="200"/>
+
+    </TableRow>
+
+</TableLayout>

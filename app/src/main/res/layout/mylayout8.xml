@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="미니계산기"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:padding="20dp"/>
+
+    <TableLayout
+        android:stretchColumns="*"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <Button android:text="1" style="@style/cal_style"/>
+            <Button android:text="2" style="@style/cal_style"/>
+            <Button android:text="3" style="@style/cal_style"/>
+            <Button android:text="+" style="@style/cal_style"/>
+        </TableRow>
+
+        <TableRow>
+            <Button android:text="4" style="@style/cal_style"/>
+            <Button android:text="5" style="@style/cal_style"/>
+            <Button android:text="6" style="@style/cal_style"/>
+            <Button android:text="-" style="@style/cal_style"/>
+        </TableRow>
+
+        <TableRow>
+            <Button android:text="7" style="@style/cal_style"/>
+            <Button android:text="8" style="@style/cal_style"/>
+            <Button android:text="9" style="@style/cal_style"/>
+            <Button android:text="*" style="@style/cal_style"/>
+        </TableRow>
+
+        <TableRow>
+            <Button android:text="1" style="@style/cal_style"/>
+            <Button android:text="clear"
+                android:layout_span="2"
+                style="@style/cal_style"/>
+
+            <Button android:text="/" style="@style/cal_style"/>
+        </TableRow>
+
+
+
+
+    </TableLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="첫번째 숫자 "
+        android:textColorHint="@color/purple_200"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="두번째 숫자 "
+        android:textColorHint="@color/purple_200"
+        android:textSize="30dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/purple_200">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="확인"
+            android:layout_alignparentRight="true"
+            android:layout_alignparentBottom="true"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:src="@drawable/train"
+        android:layout_height="200dp"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

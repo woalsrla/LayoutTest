@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:stretchColumns="*"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView android:text="학번"/>
+            <TextView android:text="30406"/>
+            <TextView android:text="이름"/>
+            <TextView android:text="홍길동"/>
+
+        </TableRow>
+        <TableRow>
+            <TextView android:text="전화번호"
+                android:layout_span="2"/>
+            <TextView android:text="010-2222-4444"
+                android:gravity="center"
+                android:autoLink="phone"
+                android:layout_span="2"/>
+
+
+
+
+        </TableRow>
+        <TableRow>
+            <Button android:text="제출"
+                android:layout_span="2"/>
+            <Button android:text="취소"
+                android:layout_span="2"/>
+
+
+
+        </TableRow>
+
+
+
+
+
+    </TableLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/jammanbo"/>
+
+
+</LinearLayout>
